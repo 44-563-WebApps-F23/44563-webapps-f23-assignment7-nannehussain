@@ -67,12 +67,12 @@
         <div class="row">
             <div class="col-md-1"><img src="ti.png" id="0" alt="searchlocation" style="width:100px;height:100px;" onclick="check(0)"></div>
             <div class="col-md-1"><img src="ti.png" id="1" alt="searchlocation" style="width:100px;height:100px;" onclick="check(1)"></div>
-            <div class="col-md-1"><img src="pirate.jpg" id="2" alt="searchlocation" style="width:100px;height:100px;" onclick="check(2)"></div>
+            <div class="col-md-1"><img src="ti.png" id="2" alt="searchlocation" style="width:100px;height:100px;" onclick="check(2)"></div>
             <div class="col-md-1"><img src="ti.png" id="3" alt="searchlocation" style="width:100px;height:100px;" onclick="check(3)"></div>
             <div class="col-md-1"><img src="ti.png" id="4" alt="searchlocation" style="width:100px;height:100px;" onclick="check(4)"></div>
         </div>
             <div class="row">
-            <div class="col-md-1"><img src="gold.png" id="5" alt="searchlocation" style="width:100px;height:100px;" onclick="check(5)"></div>
+            <div class="col-md-1"><img src="ti.png" id="5" alt="searchlocation" style="width:100px;height:100px;" onclick="check(5)"></div>
             <div class="col-md-1"><img src="ti.png" id="6" alt="searchlocation" style="width:100px;height:100px;" onclick="check(6)"></div>
             <div class="col-md-1"><img src="ti.png" id="7" alt="searchlocation" style="width:100px;height:100px;" onclick="check(7)"></div>
             <div class="col-md-1"><img src="ti.png" id="8" alt="searchlocation" style="width:100px;height:100px;" onclick="check(8)"></div>
@@ -122,19 +122,19 @@
         tre_loc_img = document.getElementById(img_id)
         if(p==treasureLocation)
         {
-        tre_loc_img.src = "treasure_box.jpg"
+        tre_loc_img.src = "gold.png"
         gameOver=true
         penalty = penalty-3
         }
         else if (p== trapLocation)
         {
-        tre_loc_img.src = "booby-trap.jpg"
+        tre_loc_img.src = "tt.png"
         gameOver=true
         penalty=penalty+4
         }
         else
         {
-            tre_loc_img.src="Skeleton-Pirate.webp"
+            tre_loc_img.src="bones.png"
         }
         checkCount=checkCount+1
         penalty=penalty+1
